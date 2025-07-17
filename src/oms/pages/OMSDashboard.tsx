@@ -268,7 +268,7 @@ export default function OMSDashboard({ user, tenant }: OMSDashboardProps) {
             color={tenant.primaryColor}
           />
         </Grid>
-        <Grid xs={12} sm={6} md={3}>
+        <Grid item xs={12} sm={6} md={3}>
           <StatCard
             title="Revenue"
             value="$45,678"
@@ -278,7 +278,7 @@ export default function OMSDashboard({ user, tenant }: OMSDashboardProps) {
             color="#4caf50"
           />
         </Grid>
-        <Grid xs={12} sm={6} md={3}>
+        <Grid item xs={12} sm={6} md={3}>
           <StatCard
             title="Pending Orders"
             value="23"
@@ -287,7 +287,7 @@ export default function OMSDashboard({ user, tenant }: OMSDashboardProps) {
             color="#ff9800"
           />
         </Grid>
-        <Grid xs={12} sm={6} md={3}>
+        <Grid item xs={12} sm={6} md={3}>
           <StatCard
             title="Delivered"
             value="1,156"
