@@ -346,7 +346,7 @@ export default function ProductCatalog({ tenant }: ProductCatalogProps) {
       {/* Product Grid */}
       <Grid container spacing={3} sx={{ mb: 4 }}>
         {filteredProducts.map((product) => (
-          <Grid key={product.id} xs={12} sm={6} md={4} lg={3}>
+          <Grid item key={product.id} xs={12} sm={6} md={4} lg={3}>
             <ProductCard product={product} onAddToCart={handleAddToCart} />
           </Grid>
         ))}
