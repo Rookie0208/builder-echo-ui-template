@@ -332,7 +332,7 @@ export default function OMSDashboard({ user, tenant }: OMSDashboardProps) {
         </Grid>
 
         {/* Alerts & Stock */}
-        <Grid xs={12} md={4}>
+        <Grid item xs={12} md={4}>
           <Stack spacing={3}>
             {/* Low Stock Alert */}
             <Card>
