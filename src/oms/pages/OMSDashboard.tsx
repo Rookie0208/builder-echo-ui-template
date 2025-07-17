@@ -301,7 +301,7 @@ export default function OMSDashboard({ user, tenant }: OMSDashboardProps) {
 
       <Grid container spacing={3}>
         {/* Recent Orders */}
-        <Grid xs={12} md={8}>
+        <Grid item xs={12} md={8}>
           <Card sx={{ height: "100%" }}>
             <CardContent>
               <Stack
